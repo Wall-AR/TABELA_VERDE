@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Vitam-B12 gotas 30ml', unit: 16.48, tag: '' },
         { desc: 'Vitamina K2 30caps', unit: 12.67, tag: '' },
         { desc: 'Zinco + L-Cisteina 30caps', unit: 11.78, tag: '' },
-        { desc: 'SuperVita C 60caps', unit: 13.09, tag: 'novo' }
+        { desc: 'SuperVita C 60caps', unit: 12.53, tag: 'novo' }
       ]
     },
     {
