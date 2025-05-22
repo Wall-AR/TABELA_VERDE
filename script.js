@@ -73,6 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Óleo de Alho 500mg 60cap', unit: 18.89, tag: '' },
         { desc: 'Óleo de Semente de Abóbora 1000mg 60cap', unit: 30.15, tag: 'ultimo-lote' },
         { desc: 'Ora Pro Nóbis 60cap', unit: 13.94, tag: '' },
+        { desc: 'Seca Barriga com Laranja MORO 60cap', unit: 14.32, tag: '' },
+        { desc: 'Tribulus Terrestris 40% 60cap', unit: 13.94, tag: '' },
+        { desc: 'Tribulus + Maca Peruana 60cap', unit: 13.56, tag: '' },
+        { desc: 'Uxi Amarelo + Unha de Gato 60cap', unit: 13.43, tag: '' },
+        { desc: 'Valeriana 60cap', unit: 17.75, tag: '' },
         { desc: 'Concentrado de Inhame - 250ml', unit: 8.35, tag: 'chá' },
         { desc: 'Ora Pro Nóbis Chá Pronto - 250ml', unit: 8.45, tag: 'chá' }
       ]
