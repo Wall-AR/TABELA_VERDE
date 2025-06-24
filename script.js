@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Ômega 3 IFOS 60caps 1gr Softgel', unit: 37.31, tag: '' },
         { desc: 'Ômega 3, 6, 9 60caps 1gr Softgel', unit: 22.95, tag: '' },
         { desc: 'PEA-600 60caps', unit: 24.29, tag: 'novo' },
+        { desc: 'PEA + Colágeno Tipo 2 60caps', unit: 26.08, tag: 'novo' },
         { desc: 'Picolinato de Cromo 30caps', unit: 12.67, tag: '' },
         { desc: 'Reartron 60caps', unit: 30.04, tag: '' },
         { desc: 'Vitamina B12 30caps', unit: 12.03, tag: '' },
