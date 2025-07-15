@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Cálcio MDK + Z 60caps (Cálcio, Magnésio, Vit.D, Vit.K, Zinco)', unit: 19.02, tag: '' },
         { desc: 'Coenzima Q10 200mg com vitamina E 30caps', unit: 29.31, tag: '' },
         { desc: 'Creatina Monohidratada 150g Natural', unit: 43.79, tag: '' },
+        { desc: 'Creatina Monohidratada Xtra 300G', unit: 40.75, tag: 'novo' },
         { desc: 'CO-Creatin 300g (Creatina com coenzima + vitaminas) Sabor Laranja', unit: 60.06, tag: '' },
         { desc: 'Colágeno Tipo 2 60cap', unit: 15.25, tag: 'novo' },
         { desc: 'Curcumina com colágeno tipo 2 30ml - Gotas', unit: 16.48, tag: 'gotas' },
