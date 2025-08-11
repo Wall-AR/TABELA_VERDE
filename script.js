@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'PEA-600 60caps', unit: 24.29, tag: 'novo' },
         { desc: 'PEA + Colágeno Tipo 2 60caps', unit: 26.08, tag: 'novo' },
         { desc: 'Picolinato de Cromo 30caps', unit: 12.67, tag: '' },
+        { desc: 'PlenaMente 30caps', unit: 17.75, tag: '' },
         { desc: 'Própolis Verde 60caps', unit: 17.30, tag: 'novo' },
         { desc: 'Reartron 60caps', unit: 30.04, tag: '' },
         { desc: 'Vitamina B12 30caps', unit: 12.03, tag: '' },
@@ -163,3 +164,4 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
