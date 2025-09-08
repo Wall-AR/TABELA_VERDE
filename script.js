@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Biotina gotas 30ml - Tutti Frutti', unit: 18.07, tag: '' },
         { desc: 'Beauty Blend 200g - Frutas Vermelhas', unit: 63.41, tag: '' },
         { desc: 'Reforce Hair 60caps', unit: 22.44, tag: '' },
-        { desc: '3 Magnésios 60 Caps', unit: 13.71, tag: '' },
+        { desc: '3 Magnésios 30 Caps', unit: 13.71, tag: '' },
         { desc: 'Cálcio MDK + Z 60caps (Cálcio, Magnésio, Vit.D, Vit.K, Zinco)', unit: 19.02, tag: '' },
         { desc: 'Coenzima Q10 200mg com vitamina E 30caps', unit: 29.31, tag: '' },
         { desc: 'Creatina Monohidratada Xtra 300G', unit: 40.75, tag: 'novo' },
@@ -164,6 +164,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
