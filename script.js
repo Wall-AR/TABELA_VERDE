@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Creatina Gummies - Uva verde 40gomas', unit: 64.75, tag: 'novo' },
         { desc: 'CO-Creatin 300g (Creatina com coenzima + vitaminas) Sabor Laranja', unit: 60.06, tag: '' },
         { desc: 'Colágeno Tipo 2 60cap', unit: 15.25, tag: 'novo' },
+        { desc: 'CurcuMAX 95% - Cúrcuma com Pimenta Preta 60 caps - ÂMBAR', unit: 13.10, tag: 'novo' },
         { desc: 'Curcumina com colágeno tipo 2 30ml - Gotas', unit: 16.48, tag: 'gotas' },
         { desc: 'Cúrcuma Longa com Curcumina 60caps', unit: 16.48, tag: '' },
         { desc: 'CO-MAG 60caps', unit: 26.00, tag: '' },
@@ -31,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Magnésio Dimalato 60caps', unit: 16.21, tag: '' },
         { desc: 'Magnésio Inositol 210g - Maracujá', unit: 44.02, tag: 'novo' },
         { desc: 'Magnésio L-Treonato 60caps', unit: 15.97, tag: 'novo' },
+        { desc: 'Magnésio L-Treonato 60caps - ÂMBAR', unit: 13.88, tag: 'novo' },
         { desc: 'Magnésio L-Treonato Blister 30caps', unit: 19.78, tag: '' },
         { desc: 'Magnésio Quelato 60caps', unit: 14.83, tag: '' },
         { desc: 'Magnésio Soft 60caps', unit: 9.49, tag: 'novo' },
@@ -165,6 +167,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
