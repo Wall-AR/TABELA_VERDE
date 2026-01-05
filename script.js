@@ -62,35 +62,33 @@ document.addEventListener('DOMContentLoaded', () => {
       logo: 'images/reavita-logo.png',
       colorVar: '--color-reavita',
       items: [
-        { desc: 'Amargo Detox 60cap', unit: 12.25, tag: '' },
-        { desc: 'Ashwagandha 60caps', unit: 17.01, tag: 'novo' },
-        { desc: 'Amora Miúra 60cap', unit: 13.18, tag: '' },
-        { desc: 'Amora com Isoflavona 60cap', unit: 13.30, tag: '' },
-        { desc: 'Calmim 60cap', unit: 14.74, tag: '' },
-        { desc: 'Canela de Velho + Sucupira 60cap', unit: 13.44, tag: '' },
-        { desc: 'Carvão Vegetal 60cap', unit: 12.79, tag: '' },
-        { desc: 'Castanha da Índia 60cap', unit: 14.57, tag: '' },
-        { desc: 'Cloreto de Magnésio PA 60cap', unit: 12.67, tag: '' },
-        { desc: 'Cloreto de Magnésio PA + Sucupira 60cap', unit: 14.06, tag: '' },
-        { desc: 'Colágeno Hidrolisado 60cap', unit: 14.10, tag: '' },
-        { desc: 'Colágeno Tipo 2 60cap', unit: 18.32, tag: 'ultimo-lote' },
-        { desc: 'Cúrcuma 95% + Pimenta Preta 60cap', unit: 12.79, tag: '' },
-        { desc: 'Espinheira Santa 60cap', unit: 13.30, tag: '' },
-        { desc: 'Ginkgo Biloba 60cap', unit: 14.19, tag: '' },
-        { desc: 'Ginkgo + Castanha 60cap', unit: 14.70, tag: '' },
-        { desc: 'L-Treonato Magnésio 60cap', unit: 15.97, tag: '' },
-        { desc: 'Maca Peruana Negra 60cap', unit: 16.86, tag: '' },
-        { desc: 'Mais Ativa 60cap', unit: 12.67, tag: '' },
-        { desc: 'Óleo de Copaíba 1000mg 60cap', unit: 19.01, tag: 'novo' },
-        { desc: 'Óleo de Sucupira 60cap', unit: 17.74, tag: 'novo' },
+        { desc: 'Amargo Detox 60cap', unit: 14.50, tag: '' },
+        { desc: 'Ashwagandha 60caps', unit: 20.07, tag: 'novo' },
+        { desc: 'Amora Miúra 60cap', unit: 16.72, tag: '' },
+        { desc: 'Amora com Isoflavona 60cap', unit: 16.23, tag: '' },
+        { desc: 'Calmim 60cap', unit: 17.14, tag: '' },
+        { desc: 'Canela de Velho + Sucupira 60cap', unit: 15.45, tag: '' },
+        { desc: 'Carvão Vegetal 60cap', unit: 16.10, tag: '' },
+        { desc: 'Castanha da Índia 60cap', unit: 16.18, tag: '' },
+        { desc: 'Cloreto de Magnésio PA 60cap', unit: 14.67, tag: '' },
+        { desc: 'Cloreto de Magnésio PA + Sucupira 60cap', unit: 15.33, tag: '' },
+        { desc: 'Colágeno Hidrolisado 60cap', unit: 16.43, tag: '' },
+        { desc: 'Cúrcuma 95% + Pimenta Preta 60cap', unit: 16.11, tag: '' },
+        { desc: 'Espinheira Santa 60cap', unit: 16.32, tag: '' },
+        { desc: 'Ginkgo Biloba 60cap', unit: 16.12, tag: '' },
+        { desc: 'Ginkgo + Castanha 60cap', unit: 17.49, tag: '' },
+        { desc: 'L-Treonato Magnésio 60cap', unit: 18.62, tag: '' },
+        { desc: 'Maca Peruana Negra 60cap', unit: 17.80, tag: '' },
+        { desc: 'Mais Ativa 60cap', unit: 15.66, tag: '' },
+        { desc: 'Óleo de Copaíba 1000mg 60cap', unit: 22.26, tag: 'novo' },
+        { desc: 'Óleo de Sucupira 60cap', unit: 21.36, tag: 'novo' },
         { desc: 'Ora Pro Nóbis 60cap', unit: 13.94, tag: '' },
-        { desc: 'Seca Barriga com Laranja MORO 60cap', unit: 14.32, tag: '' },
-        { desc: 'Tribulus Terrestris 40% 60cap', unit: 13.94, tag: '' },
-        { desc: 'Tribulus + Maca Peruana 60cap', unit: 13.56, tag: '' },
-        { desc: 'Uxi Amarelo + Unha de Gato 60cap', unit: 13.43, tag: '' },
-        { desc: 'Valeriana 60cap', unit: 17.75, tag: '' },
-        { desc: 'Concentrado de Inhame - 250ml', unit: 8.35, tag: 'chá' },
-        { desc: 'Ora Pro Nóbis Chá Pronto - 250ml', unit: 8.45, tag: 'chá' }
+        { desc: 'Seca Barriga com Laranja MORO 60cap', unit: 16.33, tag: '' },
+        { desc: 'Tribulus Terrestris 40% 60cap', unit: 15.45, tag: '' },
+        { desc: 'Tribulus + Maca Peruana 60cap', unit: 15.49, tag: '' },
+        { desc: 'Uxi Amarelo + Unha de Gato 60cap', unit: 15.44, tag: '' },
+        { desc: 'Valeriana 60cap', unit: 18.82, tag: '' },
+        { desc: 'Concentrado de Inhame - 250ml', unit: 10.41, tag: 'chá' },
       ]
     }
   ];
@@ -168,6 +166,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
