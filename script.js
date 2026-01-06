@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Mais Ativa 60cap', unit: 15.66, tag: '' },
         { desc: 'Óleo de Copaíba 1000mg 60cap', unit: 22.26, tag: 'novo' },
         { desc: 'Óleo de Sucupira 60cap', unit: 21.36, tag: 'novo' },
-        { desc: 'Ora Pro Nóbis 60cap', unit: 13.94, tag: '' },
-        { desc: 'Seca Barriga com Laranja MORO 60cap', unit: 16.33, tag: '' },
+        { desc: 'Ora Pro Nóbis 60cap', unit: 16.33, tag: '' },
+        { desc: 'Seca Barriga com Laranja MORO 60cap', unit: 16.04, tag: '' },
         { desc: 'Tribulus Terrestris 40% 60cap', unit: 15.45, tag: '' },
         { desc: 'Tribulus + Maca Peruana 60cap', unit: 15.49, tag: '' },
         { desc: 'Uxi Amarelo + Unha de Gato 60cap', unit: 15.44, tag: '' },
@@ -165,6 +165,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
