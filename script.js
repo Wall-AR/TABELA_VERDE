@@ -88,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { desc: 'Tribulus + Maca Peruana 60cap', unit: 15.49, tag: '' },
         { desc: 'Uxi Amarelo + Unha de Gato 60cap', unit: 15.44, tag: '' },
         { desc: 'Valeriana 60cap', unit: 18.82, tag: '' },
-        { desc: 'Concentrado de Inhame - 250ml', unit: 10.41, tag: 'chá' },
       ]
     }
   ];
@@ -166,6 +165,7 @@ document.getElementById('btn-export').addEventListener('click', () => {
     btn.textContent = document.body.classList.contains('dark') ? 'Tema Claro' : 'Tema Escuro';
   });
 });
+
 
 
 
